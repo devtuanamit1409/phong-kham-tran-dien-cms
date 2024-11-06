@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "hot_lines",
+  "info": {
+    "singularName": "hot-line",
+    "pluralName": "hot-lines",
+    "displayName": "HotLine"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "zalo": {
+      "type": "string"
+    }
+  }
+}

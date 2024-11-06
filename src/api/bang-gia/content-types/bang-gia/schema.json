@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "bang_gias",
+  "info": {
+    "singularName": "bang-gia",
+    "pluralName": "bang-gias",
+    "displayName": "Bảng Giá",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo"
+    },
+    "priceData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.price"
+    }
+  }
+}

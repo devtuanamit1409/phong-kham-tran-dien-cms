@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "trang_chus",
+  "info": {
+    "singularName": "trang-chu",
+    "pluralName": "trang-chus",
+    "displayName": "Trang Chủ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo"
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.image"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.about"
+    },
+    "slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.box-content"
+    },
+    "titleSection": {
+      "type": "string"
+    },
+    "contentServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.box-content"
+    },
+    "doctor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.doctors"
+    }
+  }
+}

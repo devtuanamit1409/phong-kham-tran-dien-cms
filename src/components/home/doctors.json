@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_doctors",
+  "info": {
+    "displayName": "Doctors",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "doctors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.doctor"
+    }
+  }
+}

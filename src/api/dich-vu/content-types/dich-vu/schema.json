@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "dich_vus",
+  "info": {
+    "singularName": "dich-vu",
+    "pluralName": "dich-vus",
+    "displayName": "Dịch Vụ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.image"
+    },
+    "imageServices": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.box-content",
+      "max": 4
+    },
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.image"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.box-content"
+    }
+  }
+}

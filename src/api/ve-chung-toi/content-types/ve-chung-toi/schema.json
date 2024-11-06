@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "ve_chung_tois",
+  "info": {
+    "singularName": "ve-chung-toi",
+    "pluralName": "ve-chung-tois",
+    "displayName": "Về Chúng Tôi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    }
+  }
+}

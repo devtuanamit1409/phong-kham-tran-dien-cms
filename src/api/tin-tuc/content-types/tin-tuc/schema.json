@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tin_tucs",
+  "info": {
+    "singularName": "tin-tuc",
+    "pluralName": "tin-tucs",
+    "displayName": "Tin Tức",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "share.seo"
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}

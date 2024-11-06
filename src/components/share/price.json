@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_share_prices",
+  "info": {
+    "displayName": "Price",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "services": {
+      "type": "component",
+      "repeatable": true,
+      "component": "share.box-content"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
